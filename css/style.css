@@ -1,0 +1,329 @@
+/* Nav Section */
+
+.number {
+  text-align: center;
+  border-bottom: 1px rgb(32, 32, 32) solid;
+}
+
+.logo {
+  width: 80%;
+  margin-top: 4vh;
+  margin-left: 20%;
+}
+
+nav {
+  background-color: black !important;
+}
+
+.nav-wrapper {
+  background-color: black;
+  height: 200px !important;
+}
+
+.nav-compress {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.right {
+  margin-top: 4vh;
+}
+
+button {
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: rgba(255, 0, 0, 0) !important;
+}
+
+/* Body */
+
+.product {
+  margin-top: 22vh;
+  margin-left: 10vw;
+  width: 35vw;
+  height: 30vh;
+  float: left;
+}
+
+.product-info {
+  margin-top: 10vh;
+  width: 45vw;
+  margin-right: 5vw;
+  height: 70vh;
+  float: left;
+  color: rgb(128, 128, 128);
+}
+
+/* H1 & H2 optimized/utilized for SEO */
+
+h1 {
+  color: rgb(30, 115, 190);
+  font-size: 35px !important;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+h2 {
+  font-size: 25px !important;
+  margin-top: 0px !important;
+}
+
+h3 {
+  font-size: 35px !important;
+}
+
+li {
+  list-style-type: circle;
+}
+
+/* Main Product Image */
+
+.thermal-ip-camera {
+  width: 70%;
+}
+
+/* Product Feature Images - Should be 4 */
+
+.feature-images {
+  width: 100px;
+  padding-bottom: -20px;
+}
+
+.features-wrapper {
+  width: 90vw;
+  padding-left: 8vw;
+  display: inline-block;
+  margin-top: 50px;
+  color: rgb(128, 128, 128);
+}
+
+.features-wrapper-collapse {
+  width: 80vw;
+  padding-left: 10vw;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.individual-feature {
+  float: left;
+  margin-left: 50px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+}
+
+/* Collapsible Content */
+
+.collapsible {
+  width: 75vw;
+  box-shadow: none !important;
+  padding: 5px !important;
+  color: rgb(128, 128, 128);
+}
+
+.spec-body {
+  width: 50vw;
+  margin-left: 8vw !important;
+}
+
+footer {
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+/*Blog*/
+
+.blog-wrapper {
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 25vh;
+  text-align: center;
+}
+
+.blog-about {
+  color: rgb(161, 161, 161);
+  width: 70%;
+  margin-left: 15%;
+}
+
+.lock-left {
+  width: 80%;
+}
+
+.quote {
+  font-size: 25px;
+}
+
+.lock-wrapper {
+  margin-top: 5vh;
+}
+
+.blog-secondary {
+  font-size: 18px;
+  color: rgb(161, 161, 161);
+  font-weight: 500;
+}
+
+.specialize {
+  color: rgb(170, 170, 170);
+  font-size: 18px;
+}
+
+.tech-wrapper {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 10vh;
+  background-color: rgb(248, 248, 248);
+  padding: 40px;
+}
+
+.contact-icon {
+  margin-left: 10px;
+  position: relative;
+  color: black;
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1900px) {
+  .features-wrapper {
+    width: 80vw;
+    padding-left: 20vw;
+    margin-top: -200px;
+  }
+
+  .product {
+    margin-top: 20vh;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1025px) {
+  .product {
+    width: 80vw;
+    margin-left: 20vw;
+    margin-top: 0;
+  }
+
+  .nav-compress {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .product-info {
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+    height: unset;
+  }
+
+  .features-wrapper {
+    width: 100%;
+    padding-left: unset;
+    text-align: center;
+  }
+
+  .blog-wrapper {
+    margin-top: 15vh;
+  }
+
+  .tech-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5vh;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 770px) {
+  .product {
+    margin-top: 15vh;
+  }
+
+  .individual-feature {
+    margin-left: 60px;
+  }
+
+  .features-wrapper {
+    margin-left: 10vw !important;
+  }
+
+  .features-header {
+    padding-right: 150px !important;
+  }
+
+  .blog-wrapper {
+    margin-top: 18vh;
+  }
+}
+
+/* iPhone*/
+@media only screen and (max-width: 380px) {
+  .nav-wrapper {
+    height: 200px !important;
+  }
+
+  .product {
+    margin-top: 25vh;
+  }
+
+  .product-info {
+    margin-top: unset;
+  }
+
+  .features-header {
+    padding-right: unset;
+    margin-left: 50px;
+  }
+
+  .collapsible {
+    width: 80vw;
+    box-shadow: none !important;
+    padding: unset !important;
+    color: rgb(128, 128, 128);
+  }
+
+  .spec-body {
+    width: 70vw;
+    margin-left: unset !important;
+  }
+
+  .sidenav {
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  li > a {
+    font-size: 20px !important;
+  }
+
+  .blog-wrapper {
+    margin-top: 23vh;
+  }
+
+  .h1-mobile-blog {
+    width: 100%;
+    font-size: 30px !important;
+  }
+
+  .blog-about {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  .tech-wrapper {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  .contact {
+    font-size: 10px;
+    margin-top: 5vh;
+  }
+}
